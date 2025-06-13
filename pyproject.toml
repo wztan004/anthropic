@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "anthropic-project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+anthropic = "^0.54.0"
+dotenv = "^0.9.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
